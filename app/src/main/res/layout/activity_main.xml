@@ -100,6 +100,22 @@
         app:layout_constraintTop_toBottomOf="@+id/box_two_text"
         app:layout_constraintVertical_bias="0.277" />
 
+    <TextView
+        android:id="@+id/box_six_text"
+        style="@style/WhiteBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/button_pink"
+        app:layout_constraintBottom_toTopOf="@+id/info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_two_text"
+        app:layout_constraintVertical_bias="0.0" />
+
     <Button
         android:id="@+id/red_button"
         android:layout_width="wrap_content"
@@ -132,10 +148,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="@string/botton_green"
+        android:text="@string/button_green"
         app:layout_constraintBaseline_toBaselineOf="@+id/yellow_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/yellow_button" />
+
+    <Button
+        android:id="@+id/pink_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/button_pink"
+        app:layout_constraintBottom_toTopOf="@+id/yellow_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_text"
+        app:layout_constraintVertical_bias="0.89" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
